@@ -1,11 +1,11 @@
 {
     "name": "Hardcore",
-    "version_number": "1.0.0",
+    "version_number": "1.0.5",
     "website_url": "",
     "description": "Adds hardcore mode to the game",
     "dependencies": [
         "LavaGang-MelonLoader-0.7.0",
         "the_croods-SwapperPlugin-1.2.2",
-        "KaBooMa-S1API-1.6.2"
+        "ifBars-S1API_Forked-2.4.4"
     ]
 }

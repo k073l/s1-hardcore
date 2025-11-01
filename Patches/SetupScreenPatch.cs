@@ -228,6 +228,8 @@ public class SetupScreenPatch
     [HarmonyPostfix]
     public static void ApplyHardcoreSetting(SetupScreen __instance)
     {
+        MelonLogger.Msg($"Applying Hardcode: {hardcoreToggle.isOn}");
+        Hardcore.ForceHardcoreMode = true;
         HardcoreSave.Instance.HardcoreModeData.HardcoreMode = hardcoreToggle.isOn;
     }
 }

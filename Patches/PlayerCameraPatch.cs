@@ -33,7 +33,7 @@ public class PlayerCameraPatch
     {
         PlayerCamera.Instance.FreeCamEnabled = true;
         HUD.Instance.canvas.enabled = false;
-        PlayerMovement.Instance.canMove = false;
+        PlayerMovement.Instance.CanMove = false;
         Player.Local.SetVisibleToLocalPlayer(false);
         
         PlayerCamera.Instance.OverrideTransform(PlayerCamera.Instance.transform.position, PlayerCamera.Instance.transform.rotation, 0f);
